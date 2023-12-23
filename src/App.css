@@ -1,6 +1,7 @@
-.App {
+/* .App {
   text-align: center;
-}
+
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Estilos CSS */
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Opción para distribuir el espacio entre las tarjetas */
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px;
+}
+
+/* Estilos para las tarjetas */
+.Card {
+  width: calc(33.33% - 40px); /* Tamaño de la tarjeta (ajustar según necesidades) */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: gray;
 }
